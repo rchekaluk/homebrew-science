@@ -1,8 +1,9 @@
 class Qualimap < Formula
+  desc "Facilitates the quality control of alignment sequencing data"
   homepage "http://qualimap.bioinfo.cipf.es/"
   url "https://bitbucket.org/kokonech/qualimap/downloads/qualimap-build-28-03-16.tar.gz"
-  sha256 "12fd342a2ccc76ea09bbd5e9ae38c1ae9ae44aad5e6f0296298e584e55b0d8ae"
   version "20160328"
+  sha256 "12fd342a2ccc76ea09bbd5e9ae38c1ae9ae44aad5e6f0296298e584e55b0d8ae"
   bottle do
     cellar :any
     sha256 "312dbd9f9a0537ef4ab379d5d65d905455e7f01af827de75643d89beb0e305b0" => :yosemite
